@@ -1,0 +1,33 @@
+{
+  "name": "oh-my-pi-wrap",
+  "version": "1.0.0",
+  "description": "终端AI编码Agent封装 - 基于 oh-my-pi 的 hash编辑+LSP+浏览器+子Agent SDK",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "demo": "tsx src/demo.ts",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "ai",
+    "coding-agent",
+    "oh-my-pi",
+    "lsp",
+    "debug",
+    "browser-automation",
+    "typescript"
+  ],
+  "author": "q15004040209-creator",
+  "license": "MIT",
+  "dependencies": {
+    "@oh-my-pi/pi-coding-agent": "latest"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
